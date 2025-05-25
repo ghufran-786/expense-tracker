@@ -1,0 +1,17 @@
+.add-expense-button {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* purple-blue gradient */
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .add-expense-button:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    transform: scale(1.05);
+  }
+  

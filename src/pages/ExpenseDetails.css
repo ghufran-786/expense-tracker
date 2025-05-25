@@ -1,0 +1,45 @@
+.expense-detail {
+    margin: 10px auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 45px;
+    padding: 10px;
+    width: 390px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+  }
+  
+  .expense-detail h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .amount-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .amount-container .income,
+  .amount-container .expense {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .amount-container h4 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .amount-container span {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
